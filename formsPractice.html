@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Student Registration Form</title>
+		<style>
+			.gender{
+				color: blue;
+			}
+			.YourSelf{
+				color: purple;
+			}
+			.heading{
+				color: crimson;
+			}
+			.marks{
+				color: blue;
+			}
+
+		</style>
+	</head>
+	<body>
+		<!-- <h1 class="heading"><strong>Student Registration Form</strong></h1> -->
+		 	<h1 style="color:brown;font-size: larger;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Student Registration Form</h1>
+		<h2 style="color:blueviolet;font-size: x-large;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" >Fill Your Details</h2>
+		<form>
+			<!-- Student Name -->
+			<label for="Student Name">Student Name :</label>
+			<input type="text"id="Student Name"placeholder="Student Name" required><br><br>
+			<!-- Father Name -->
+			 <label for="Father Name">Father Name :</label>
+			 <input type="text"id="Father Name"placeholder="Father Name"required><br><br>
+			 <!-- Student ID -->
+				<label for="Student ID">Student ID :</label>
+				<input type="number" id="Student ID"placeholder="Student ID" required><br><br>
+				<!-- Email Address -->
+				 <label for="Email Address">Email Address :</label>
+				 <input type="email"id="Email Address"placeholder="Email Address"required><br><br>
+				 <!-- Phone Number -->
+					<label for="Phone Number">Phone Number :</label>
+					<input type="number" id="Phone Number"placeholder="Phone Number"required><br><br>
+					<!-- Matric Results Total marks-->
+					<p class="marks"><strong> Matric Result MarkSheet</strong></p>
+					<label for="School Name">School Name :</label>
+					<input type="text" id="School Name"placeholder="School Name"required><br><br>
+					<label for="Matric Result MarkSheet">Total Marks :</label>
+					<input type="number" name="" id="Matric Result MarkSheet"placeholder="Total Marks"required><br><br>
+					<!-- Obtained Marks -->
+					<label for="Obtained Marks">Obtained Marks :</label>
+					<input type="number" id="Obtained Marks"placeholder="Obtained Marks"required><br><br>
+					<!-- Percentage -->
+					 <label for="Percentage">Percentage :</label>
+					 <input type="number"id="Percentage"placeholder="Percentage"><br><br>
+					 <!-- Grade -->
+					<label for="Grade">Grade :</label>
+					<input type="text"id="Grade"placeholder="Grade"required><br><br>
+					<!-- Address -->
+					 	<label for="Address">Address :</label>
+					<input type="text"id="Address"placeholder="Address"required><br><br>
+					<!-- Age Group -->
+					 <label for=">Age Group"><strong>Age Group<strong></label>
+						<select>
+							<p><strong>Select Your Age Group</strong></p>
+							<option id=">Age Group">18-20</option><br>
+							<option>20-30</option><br>
+							<option>30-40</option><br>
+							<option>50+</option>
+						</select><br><br>
+					<!-- Gender -->
+					 <p class="gender"><strong>Select Your Gender</strong></p>
+					 <label for="Gender"><strong>Male</strong></label>
+					 <input type="radio" name="Gender" id="Gender"><br>
+					 <label for="Female"><strong>Female</strong></label>
+					 <input type="radio"name="Gender"id="Female"><br>
+					 <label for="Other"><strong>Other</strong></label>
+					 <input type="radio" name="Gender" id="Other"><br><br>
+					 <!-- Atteched Your MarkSheet -->
+					 <label for="Atteched Your MarkSheet"><strong>Atteched Your MarkSheet</strong></label>
+					 <input type="file" id="Atteched Your MarkSheet">
+					 <p class="YourSelf"><strong>Write About Your Self</strong></p>
+					 <textarea cols="30" rows="5" for="Comment Below"id="Comment Below"></textarea><br><br>
+					 <input type="submit" value="Submit" class="submit">
+		</form>
+		
+	</body>
+</html>

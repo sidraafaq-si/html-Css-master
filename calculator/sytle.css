@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+	background-image: url(maths.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: auto;
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("maths.jpg");
+}
+h2{
+	text-align:center;
+	margin: auto;
+	margin-bottom: 5vh;
+	color:#f0820c;
+	font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-style: bold;
+	font-size: 30px;
+	margin-top: 5vh;
+}
+h2:hover{
+	color: #f15ba6;
+}
+.container{
+	width: 90vh;
+	margin-left: 83vh;
+}
+.container input{
+	width: 37vh;
+  height: 5vh;
+	border: none;
+	box-shadow: 15px 15px 30px black ;
+	border-radius: 4px;
+}
+.numbers{
+		width: 40vh;
+    height: 63vh;
+	  border:1px solid grey;
+		box-shadow:  50px 50px 60px black;
+		border-radius: 8px;
+}
+button{
+	height: 8vh;
+	width: 8vh;
+	margin: 3px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: none;
+	border-radius: 50%;
+	color:black;
+	font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-style: bold;
+	font-size: 19px;
+	box-shadow:9px 9px 20px black;
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+button:hover{
+	background-color:rgb(87, 81, 81);
+	color: white;
+
+}
+#inputOne{
+	margin-bottom:4vh;
+	margin-top: 4vh;
+	width: 35vh;
+	height: 10vh;
+	margin-left: 15px;
+	margin-bottom: 12px;
+	font-size: 30;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+ }
+.cancel{
+	background-color: #f0820c;
+	color: white;
+	transition: 0.5s ease;
+}
+.cancel:hover{
+	color: black;
+	background-color:#c46c4f
+}

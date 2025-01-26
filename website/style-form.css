@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+h2{
+	color:#077187;
+	font-family: "Kaushan Script", cursive;
+  font-weight: 700;
+  font-style: normal;
+	text-transform: capitalize;
+	margin: auto;
+	position: relative;
+	font-size: 30px;
+	text-align: center;
+}
+span{
+	color:#f59542;
+	font-family: "Kaushan Script", cursive;
+  font-weight: 700;
+  font-style: normal;
+	text-transform: capitalize;
+	font-size: 30px;
+	line-height: 1px;
+	
+}
+h3{
+	font-size: 30px;
+	color:#077187;
+	font-family: "Kaushan Script", cursive;
+  font-weight: 700;
+  font-style: normal;
+	text-transform: capitalize;
+	position: relative;
+	text-align: center;
+}
+.form{
+	width: 200px;
+	height: 360px;
+  background-color:rgba(0,0,0,0.09) ;
+	border-radius: 9px;
+	box-shadow: 8px 8px 20px black;
+	margin: auto;
+	padding: 40px;
+	margin-top: 30px;
+	position: relative;
+}
+label,p{
+	font-size: 18px;
+	font-weight: 600;
+	transition: 0.5s;
+}
+label:hover{
+	color: #f59542;
+}
+p:hover{
+	color: #f59542;
+}
+input{
+	height: 25px;
+	border:1px solid #077187;
+}
+
+#submit{
+	width: 280px;
+	height: 50px;
+	border-radius: 9px;
+	margin-top: 35px;
+	padding: auto;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 2px;
+	border: none;
+	background-color: #f59542;
+	color: white;
+	box-shadow: 3px 3px 10px #f59542;
+	transition: 0.5s;
+	cursor: pointer;
+	margin-left: -37px;
+}
+#submit:hover{
+	color: black;
+	background-color: #077187;
+	box-shadow: 3px 3px 10px #077187;
+}
+@media (max-width:480) {
+	.form{
+			width: 100px;
+     height: 300px;
+		 padding: auto;
+		 margin: auto;
+		}
+		#button{
+	width: 300px;
+	height: 50px;
+	border-radius: 9px;
+	margin-left:0px;
+	margin-top: 0px;
+
+		}
+		
+}
